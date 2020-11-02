@@ -26,4 +26,7 @@ require (
 	github.com/vektra/mockery/v2 v2.3.0
 )
 
-replace github.com/sourcegraph/go-lsp => github.com/radeksimko/go-lsp v0.1.0
+replace (
+	github.com/sourcegraph/go-lsp => github.com/radeksimko/go-lsp v0.1.0
+	github.com/hashicorp/hcl-lang => ../hcl-lang
+)
